@@ -8,5 +8,5 @@ def get_file_data() -> list:
 
 def get_random_word() -> str:
     data = get_file_data()
-    return choice(data)
+    return choice(data).strip()
 
